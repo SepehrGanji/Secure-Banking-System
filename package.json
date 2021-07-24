@@ -1,0 +1,22 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "node client.js",
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SepehrGanji",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.2",
+    "node-rsa": "^1.1.1",
+    "socket.io": "^4.1.3",
+    "socket.io-client": "^4.1.3",
+    "uuid": "^8.3.2"
+  }
+}

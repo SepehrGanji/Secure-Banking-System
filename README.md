@@ -23,7 +23,7 @@ If you must run the project manually, follow the instruction
 bellow:\
 1- Create a mongodb container and expose port 4000:
 ~~~~
-docker run -d --rm -v sec_database:/data/db -p 4000:27017 mongo
+$ docker run -d --rm -v sec_database:/data/db -p 4000:27017 mongo
 ~~~~
 The -d flag is to run container in detach mode and
 not blocking your shell, the --rm flag is to remove container
@@ -31,10 +31,10 @@ after it stops, the -v flag is for persisting data
 with the help of named volumes.\
 2- Installing the required packages
 ~~~~
-npm install
+$ npm install
 ~~~~
 3- Running client and server
 ~~~~
-npm run server
-npm run client
+$ npm run server
+$ npm run client
 ~~~~

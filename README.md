@@ -2,7 +2,7 @@
 ![version](https://img.shields.io/badge/version-1.0.0-important.svg)
 
 
-### Introduction:
+## Introduction:
 Project for the fundamentals of secure computing course at
 Isfahan University of Technology.\
 It is a simple banking system with database and symmetric
@@ -10,13 +10,13 @@ and asymmetric encryption for the client-server
 message exchanges.
 
 
-### Requirements:
+## Requirements:
 * node.js
 * npm
 * Docker
 
 
-### Running the project:
+## Running the project:
 You can easily run client by running `run_client.sh`
 and server by running `run_server.sh` files.\
 If you must run the project manually, follow the instruction

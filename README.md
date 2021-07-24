@@ -1,7 +1,6 @@
 # Secure Banking System
 ![version](https://img.shields.io/badge/version-1.0.0-important.svg)
 
-***
 
 ### Introduction:
 Project for the fundamentals of secure computing course at
@@ -10,14 +9,12 @@ It is a simple banking system with database and symmetric
 and asymmetric encryption for the client-server
 message exchanges.
 
-***
 
 ### Requirements:
 * node.js
 * npm
 * Docker
 
-***
 
 ### Running the project:
 You can easily run client by running `run_client.sh`
